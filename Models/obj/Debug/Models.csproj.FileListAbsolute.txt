@@ -1,0 +1,6 @@
+C:\Users\Banderos\Desktop\курсы\Дз по EFCore\EFCore\Models\bin\Debug\Models.dll
+C:\Users\Banderos\Desktop\курсы\Дз по EFCore\EFCore\Models\bin\Debug\Models.pdb
+C:\Users\Banderos\Desktop\курсы\Дз по EFCore\EFCore\Models\obj\Debug\Models.csprojAssemblyReference.cache
+C:\Users\Banderos\Desktop\курсы\Дз по EFCore\EFCore\Models\obj\Debug\Models.csproj.CoreCompileInputs.cache
+C:\Users\Banderos\Desktop\курсы\Дз по EFCore\EFCore\Models\obj\Debug\Models.dll
+C:\Users\Banderos\Desktop\курсы\Дз по EFCore\EFCore\Models\obj\Debug\Models.pdb

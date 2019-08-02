@@ -1,0 +1,9 @@
+C:\Users\Banderos\Desktop\курсы\Дз по EFCore\EFCore\EFCore.Infrastructure.Interfaces\bin\Debug\EFCore.Infrastructure.Interfaces.dll
+C:\Users\Banderos\Desktop\курсы\Дз по EFCore\EFCore\EFCore.Infrastructure.Interfaces\bin\Debug\EFCore.Infrastructure.Interfaces.pdb
+C:\Users\Banderos\Desktop\курсы\Дз по EFCore\EFCore\EFCore.Infrastructure.Interfaces\bin\Debug\Models.dll
+C:\Users\Banderos\Desktop\курсы\Дз по EFCore\EFCore\EFCore.Infrastructure.Interfaces\bin\Debug\Models.pdb
+C:\Users\Banderos\Desktop\курсы\Дз по EFCore\EFCore\EFCore.Infrastructure.Interfaces\obj\Debug\EFCore.Infrastructure.Interfaces.csprojAssemblyReference.cache
+C:\Users\Banderos\Desktop\курсы\Дз по EFCore\EFCore\EFCore.Infrastructure.Interfaces\obj\Debug\EFCore.Infrastructure.Interfaces.csproj.CoreCompileInputs.cache
+C:\Users\Banderos\Desktop\курсы\Дз по EFCore\EFCore\EFCore.Infrastructure.Interfaces\obj\Debug\EFCore.Infrastructure.Interfaces.csproj.CopyComplete
+C:\Users\Banderos\Desktop\курсы\Дз по EFCore\EFCore\EFCore.Infrastructure.Interfaces\obj\Debug\EFCore.Infrastructure.Interfaces.dll
+C:\Users\Banderos\Desktop\курсы\Дз по EFCore\EFCore\EFCore.Infrastructure.Interfaces\obj\Debug\EFCore.Infrastructure.Interfaces.pdb

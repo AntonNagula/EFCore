@@ -1,0 +1,6 @@
+C:\Users\Banderos\Desktop\курсы\Дз по EFCore\EFCore\EFCore.Domain.Core\bin\Debug\EFCore.Domain.Core.dll
+C:\Users\Banderos\Desktop\курсы\Дз по EFCore\EFCore\EFCore.Domain.Core\bin\Debug\EFCore.Domain.Core.pdb
+C:\Users\Banderos\Desktop\курсы\Дз по EFCore\EFCore\EFCore.Domain.Core\obj\Debug\EFCore.Domain.Core.csprojAssemblyReference.cache
+C:\Users\Banderos\Desktop\курсы\Дз по EFCore\EFCore\EFCore.Domain.Core\obj\Debug\EFCore.Domain.Core.csproj.CoreCompileInputs.cache
+C:\Users\Banderos\Desktop\курсы\Дз по EFCore\EFCore\EFCore.Domain.Core\obj\Debug\EFCore.Domain.Core.dll
+C:\Users\Banderos\Desktop\курсы\Дз по EFCore\EFCore\EFCore.Domain.Core\obj\Debug\EFCore.Domain.Core.pdb
