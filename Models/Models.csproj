@@ -41,6 +41,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ActionExecuting.cs" />
+    <Compile Include="Exceptions.cs" />
     <Compile Include="General_Info.cs" />
     <Compile Include="Lesson.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

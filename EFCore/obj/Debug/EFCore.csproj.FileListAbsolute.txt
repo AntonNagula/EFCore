@@ -259,3 +259,8 @@ C:\Users\Banderos\Desktop\курсы\Дз по EFCore\EFCore\EFCore\obj\Debug\EF
 C:\Users\Banderos\Desktop\курсы\Дз по EFCore\EFCore\EFCore\obj\Debug\EFCore.csproj.CopyComplete
 C:\Users\Banderos\Desktop\курсы\Дз по EFCore\EFCore\EFCore\obj\Debug\EFCore.dll
 C:\Users\Banderos\Desktop\курсы\Дз по EFCore\EFCore\EFCore\obj\Debug\EFCore.pdb
+C:\Users\Banderos\Desktop\курсы\Дз по EFCore\EFCore\EFCore\bin\FluentValidation.dll
+C:\Users\Banderos\Desktop\курсы\Дз по EFCore\EFCore\EFCore\bin\FluentValidation.ValidatorAttribute.dll
+C:\Users\Banderos\Desktop\курсы\Дз по EFCore\EFCore\EFCore\bin\FluentValidation.WebApi.dll
+C:\Users\Banderos\Desktop\курсы\Дз по EFCore\EFCore\EFCore\bin\FluentValidation.xml
+C:\Users\Banderos\Desktop\курсы\Дз по EFCore\EFCore\EFCore\bin\FluentValidation.WebApi.xml

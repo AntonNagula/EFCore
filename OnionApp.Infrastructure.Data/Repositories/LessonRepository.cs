@@ -11,11 +11,6 @@ namespace EFCore.Infrastructure.Data.Repositories
     {
         private StudentContext db;
 
-        public LessonRepository()
-        {
-            db = new StudentContext();
-        }
-
         public LessonRepository(StudentContext db)
         {
             this.db = db;

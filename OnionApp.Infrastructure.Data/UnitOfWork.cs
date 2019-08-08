@@ -5,13 +5,14 @@ namespace EFCore.Infrastructure.Data
 {
     public class UnitOfWork:IUnitOfWork,IDisposable
     {
-        private StudentContext db = new StudentContext();
+        private StudentContext db;
         private LessonRepository LessonRepo;
         private StudentRepository StudentRepo;
-
-        public UnitOfWork()
+        private ActionExecutingRepository ActionExecutingRepo;
+        private ExceptionRepository ExceptionRepo;
+        public UnitOfWork(StudentContext st)
         {
-
+            db = st;
         }
         public ILessonRepository Lessons
         {
@@ -30,6 +31,26 @@ namespace EFCore.Infrastructure.Data
                 if (StudentRepo == null)
                     StudentRepo = new StudentRepository(db);
                 return StudentRepo;
+            }
+        }
+
+        public IActionExecutingRepository Executings
+        {
+            get
+            {
+                if (ActionExecutingRepo == null)
+                    ActionExecutingRepo = new ActionExecutingRepository(db);
+                return ActionExecutingRepo;
+            }
+        }
+
+        public IExceptionRepository Exceptions
+        {
+            get
+            {
+                if (ExceptionRepo == null)
+                    ExceptionRepo = new ExceptionRepository(db);
+                return ExceptionRepo;
             }
         }
 

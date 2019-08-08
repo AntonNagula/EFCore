@@ -99,6 +99,7 @@
       <HintPath>..\packages\System.ComponentModel.Annotations.4.5.0\lib\net461\System.ComponentModel.Annotations.dll</HintPath>
     </Reference>
     <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Data.SqlClient, Version=4.5.0.1, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
       <HintPath>..\packages\System.Data.SqlClient.4.6.1\lib\net461\System.Data.SqlClient.dll</HintPath>
@@ -130,8 +131,9 @@
     <Compile Include="IModule.cs" />
     <Compile Include="Modules\ContextModule.cs" />
     <Compile Include="Modules\DataModuls.cs" />
+    <Compile Include="Modules\FilterContext.cs" />
+    <Compile Include="Modules\InitializationModule.cs" />
     <Compile Include="Modules\ServiceModule.cs" />
-    <Compile Include="Modules\RepositoryModule.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

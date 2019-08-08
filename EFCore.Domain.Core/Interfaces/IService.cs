@@ -1,4 +1,5 @@
-﻿using System;
+﻿using EFCore.Domain.Core.FiltersInfo;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -14,5 +15,10 @@ namespace EFCore.Domain.Core.Interfaces
         void Create_Lesson(DomainLesson item);
         void Delete_Lesson(int Id);
         IList<DomainLesson> Get_Lesson(int Id);
+
+        IList<ExceptionDetails> Get_Exceptions();
+        void AddException(ExceptionDetails exc);
+        IList<ActionExecutingDetails> Get_ActionExecuting();
+        void AddExecuting(ActionExecutingDetails item);
     }
 }

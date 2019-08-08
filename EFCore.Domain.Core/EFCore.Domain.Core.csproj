@@ -44,6 +44,9 @@
     <Compile Include="DomainGeneral.cs" />
     <Compile Include="DomainLesson.cs" />
     <Compile Include="DomainStudent.cs" />
+    <Compile Include="FiltersInfo\ActionExecutingDetails.cs" />
+    <Compile Include="FiltersInfo\ExceptionDetails.cs" />
+    <Compile Include="Interfaces\IDomainInitializationService.cs" />
     <Compile Include="Interfaces\IService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

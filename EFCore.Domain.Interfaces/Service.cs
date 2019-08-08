@@ -6,17 +6,36 @@ using EFCore.Domain.Interfaces.Mappers;
 using EFCore.Domain.Core.Interfaces;
 using EFCore.Infrastructure.Interfaces.Interfaces;
 using EFCore.Domain.Core;
+using EFCore.Domain.Core.FiltersInfo;
 namespace EFCore.Domain.Interfaces
 {
     public class Service:IService
     {
-        //public readonly IRepository _studentRepository;
-
         public readonly IUnitOfWork _studentRepository;
 
         public Service(IUnitOfWork studentRepository)
         {
             _studentRepository = studentRepository;
+        }
+
+        public IList<ExceptionDetails> Get_Exceptions()
+        {
+            return _studentRepository.Exceptions.Get().Select(x=>x.ToExceptionDetails()).ToList();
+        }
+
+        public void AddException(ExceptionDetails exc)
+        {
+            _studentRepository.Exceptions.Add(exc.ToExceptions());
+        }
+
+        public IList<ActionExecutingDetails> Get_ActionExecuting()
+        {
+            return _studentRepository.Executings.Get().Select(x =>x.ToExecutingDetails()).ToList();
+        }
+
+        public void AddExecuting(ActionExecutingDetails item)
+        {
+            _studentRepository.Executings.Add(item.ToActionExecuting());
         }
 
         public IList<DomainGeneral> GetStudents()

@@ -4,6 +4,8 @@ using System.Linq;
 using System.Text;
 using Models;
 using EFCore.Domain.Core;
+using EFCore.Domain.Core.FiltersInfo;
+
 namespace EFCore.Domain.Interfaces.Mappers
 {
     public static class DomainMappers
@@ -45,6 +47,52 @@ namespace EFCore.Domain.Interfaces.Mappers
             {                
                 Name = item.Name,
                 StudentId = item.StudentId
+            };
+        }
+
+        public static ExceptionDetails ToExceptionDetails(this Exceptions item)
+        {
+            return new ExceptionDetails
+            {                
+                Id=item.Id,
+                ActionName=item.ActionName,
+                ControllerName=item.ControllerName,
+                ExceptionMessage=item.ExceptionMessage,
+                Date=item.Date,
+                StackTrace=item.StackTrace                 
+            };
+        }
+
+        public static Exceptions ToExceptions(this ExceptionDetails item)
+        {
+            return new Exceptions
+            {                
+                ActionName = item.ActionName,
+                ControllerName = item.ControllerName,
+                ExceptionMessage = item.ExceptionMessage,
+                Date = item.Date,
+                StackTrace = item.StackTrace
+            };
+        }
+
+        public static ActionExecutingDetails ToExecutingDetails(this ActionExecuting item)
+        {
+            return new ActionExecutingDetails
+            {
+                Id = item.Id,
+                ActionName = item.ActionName,
+                ControllerName = item.ControllerName,
+                Date = item.Date,    
+            };
+        }
+
+        public static ActionExecuting ToActionExecuting(this ActionExecutingDetails item)
+        {
+            return new ActionExecuting
+            {
+                ActionName = item.ActionName,
+                ControllerName = item.ControllerName,
+                Date = item.Date,
             };
         }
     }

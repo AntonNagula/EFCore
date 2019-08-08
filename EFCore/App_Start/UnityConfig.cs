@@ -3,6 +3,8 @@ using System.Web.Http;
 using Unity.WebApi;
 using DependencyInjection;
 using DependencyInjection.Modules;
+using EFCore.Domain.Core.Interfaces;
+
 namespace EFCore
 {
     public static class UnityConfig
@@ -11,14 +13,13 @@ namespace EFCore
         {
 			var container = new UnityContainer();
 
-            // register all your components with the container here
-            // it is NOT necessary to register your controllers
             Register<ContextModule>(container);
             //Register<RepositoryModule>(container);
             Register<ServiceModule>(container);
             Register<DataModuls>(container);
+            Register<InitializationModule>(container);
             // e.g. container.RegisterType<ITestService, TestService>();
-
+            
             GlobalConfiguration.Configuration.DependencyResolver = new UnityDependencyResolver(container);
         }
 

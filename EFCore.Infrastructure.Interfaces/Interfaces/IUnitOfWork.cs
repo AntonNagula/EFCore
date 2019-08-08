@@ -11,5 +11,9 @@ namespace EFCore.Infrastructure.Interfaces.Interfaces
         IStudentRepository Students{get;}
 
         ILessonRepository Lessons { get; }
+
+        IActionExecutingRepository Executings { get; }
+
+        IExceptionRepository Exceptions { get; }
     }
 }
